@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  font-size: 48px;
+  text-align: center;
+  margin: 2rem;
+}
+
+#images {
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  margin: 2rem 5rem;
+}
+
+.img1 {
+  width: 400px;
+  max-width: 100%;
+}
+
+.img2 {
+  width: 400px;
+  max-width: 100%;
+}
+
+.img3 {
+  width: 400px;
+  max-width: 100%;
+}
+
+#names {
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  margin: 2rem 15rem;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  margin: 2rem;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.button1 {
+  margin: 1rem;
+}
+
+.button2 {
+  margin: 1rem;
+}
+
+footer {
+  text-align: center;
+  margin: 2rem;
+}
